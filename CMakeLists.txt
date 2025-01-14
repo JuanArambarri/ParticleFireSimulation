@@ -10,6 +10,8 @@ set(SDL2_PATH "D:/Bau/ProgrammingStudy/ParticleFireSimulation/x86_64-w64-mingw32
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIR})
 
-add_executable(ParticleFireSimulation main.cpp)
+add_executable(ParticleFireSimulation main.cpp
+        Screen.cpp
+        Screen.h)
 
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY})

@@ -56,6 +56,13 @@ build CMakeFiles/ParticleFireSimulation.dir/main.cpp.obj: CXX_COMPILER__Particle
   OBJECT_DIR = CMakeFiles\ParticleFireSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\ParticleFireSimulation.dir
 
+build CMakeFiles/ParticleFireSimulation.dir/Screen.cpp.obj: CXX_COMPILER__ParticleFireSimulation_unscanned_Debug D$:/Bau/ProgrammingStudy/ParticleFireSimulation/Screen.cpp || cmake_object_order_depends_target_ParticleFireSimulation
+  DEP_FILE = CMakeFiles\ParticleFireSimulation.dir\Screen.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -ID:/Bau/ProgrammingStudy/ParticleFireSimulation/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\ParticleFireSimulation.dir
+  OBJECT_FILE_DIR = CMakeFiles\ParticleFireSimulation.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ParticleFireSimulation
@@ -64,7 +71,7 @@ build CMakeFiles/ParticleFireSimulation.dir/main.cpp.obj: CXX_COMPILER__Particle
 #############################################
 # Link the executable ParticleFireSimulation.exe
 
-build ParticleFireSimulation.exe: CXX_EXECUTABLE_LINKER__ParticleFireSimulation_Debug CMakeFiles/ParticleFireSimulation.dir/main.cpp.obj | D$:/Bau/ProgrammingStudy/ParticleFireSimulation/x86_64-w64-mingw32/lib/libSDL2main.a D$:/Bau/ProgrammingStudy/ParticleFireSimulation/x86_64-w64-mingw32/lib/libSDL2.dll.a
+build ParticleFireSimulation.exe: CXX_EXECUTABLE_LINKER__ParticleFireSimulation_Debug CMakeFiles/ParticleFireSimulation.dir/main.cpp.obj CMakeFiles/ParticleFireSimulation.dir/Screen.cpp.obj | D$:/Bau/ProgrammingStudy/ParticleFireSimulation/x86_64-w64-mingw32/lib/libSDL2main.a D$:/Bau/ProgrammingStudy/ParticleFireSimulation/x86_64-w64-mingw32/lib/libSDL2.dll.a
   FLAGS = -g
   LINK_LIBRARIES = -lmingw32  -mwindows  D:/Bau/ProgrammingStudy/ParticleFireSimulation/x86_64-w64-mingw32/lib/libSDL2main.a  D:/Bau/ProgrammingStudy/ParticleFireSimulation/x86_64-w64-mingw32/lib/libSDL2.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ParticleFireSimulation.dir
