@@ -23,8 +23,11 @@ namespace Juan {
     public:
         Screen();
         bool init(); //check if fail
+        void update();
+        void setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue);
         bool processEvents();
         void close();
+
 
     };
 

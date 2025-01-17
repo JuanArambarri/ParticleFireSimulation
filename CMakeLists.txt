@@ -12,6 +12,10 @@ include_directories(${SDL2_INCLUDE_DIR})
 
 add_executable(ParticleFireSimulation main.cpp
         Screen.cpp
-        Screen.h)
+        Screen.h
+        Particle.cpp
+        Particle.h
+        Swarm.cpp
+        Swarm.h)
 
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY})
