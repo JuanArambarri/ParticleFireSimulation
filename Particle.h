@@ -11,9 +11,16 @@ namespace Juan {
         //Particle is now a struct in order to make these accessible. (will need access to x and y constantly)
         double m_x; // x value for position
         double m_y; // y value for position
+    private:
+        double m_speed;
+        double m_direction;
+    private:
+        void init();
     public:
         Particle();
         ~Particle();
+        void update(int interval);
+
 
     };
 
